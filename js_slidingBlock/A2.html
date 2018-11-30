@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+         <script type="text/javascript" src="https://www.imooc.com/static/lib/jquery/1.9.1/jquery.js"></script>
+        <title>Assignment 2: Sliding 15 puzzle</title>
+         <link href= "A2.css" type="text/css" rel="stylesheet" />
+         <script src="A2.js"></script>
+    </head>
+
+    <body> 
+
+      <!-- header, show the name of the game-->
+
+      <div id="header">
+       <h1>滑块拼图</h1>
+      </div> 
+
+      <!-- main body, show the start button, then show the puzzle-->
+
+      <div id="wrap" >
+       <div id="imagebox">
+         <h1 id=youwin>You Win !</h1>
+         <p id="steps"></p>
+         <button id="start" class="bigbut" onmouseover="this.style.backgroundColor='#0033CC ';" onmouseout="this.style.backgroundColor='';" onclick="start()">START</button>
+        </div> 
+      </div>
+
+      <!--footer, include 3 buttons-->
+
+      <div id=footer>
+       <button id="restart" class="but" onmouseover="this.style.backgroundColor='#3366FF ';" onmouseout="this.style.backgroundColor='';" onclick="restartClicked()">Restart</button>
+       <button id="solveme" class="but" onmouseover="this.style.backgroundColor='#3366FF ';" onmouseout="this.style.backgroundColor='';" onclick="solvemeClicked()">Solve Me</button>
+       <button id="newgame" class="but" onmouseover="this.style.backgroundColor='#3366FF ';" onmouseout="this.style.backgroundColor='';" onclick="newgameClicked()">New Game</button>
+      </div> 
+   
+
+    </body>
+</html>
+、

@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFCC ;  
+ }
+
+
+/* Header */
+#header {
+
+	width:800px;
+	height:60px;
+	text-align:center;
+	margin-left:auto;
+  margin-right:auto;
+  color:#6699FF;
+}
+
+
+/* wrap(content)*/
+#wrap {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #FFF;
+}
+
+
+/* wrap canvas */
+#wrap canvas {
+
+    width: 25%;
+    height: 25%;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+
+/* to show the initial image */
+#imagebox {
+
+	width: 800px;
+	height: 600px;
+	background: url(image/1.jpg)no-repeat;
+	background-size: cover;
+	text-align: center;
+	filter:alpha(opacity=50);  
+           -moz-opacity:0.5;  
+           -khtml-opacity: 0.5;  
+           opacity: 0.5; 
+}
+
+
+/* to show the words 'you win' */
+#youwin{
+
+   color:#FF0000 ;
+   font-size: 60px;
+   margin-top:200px;
+   display: none;
+}
+
+
+/* to show the steps you have taken */
+#steps{
+
+   color:#FF0000 ;
+   font-size: 30px;
+   font-weight: bold;
+   
+}
+
+
+/* start button */
+.bigbut{
+
+	  width: 200px;
+    height: 60px;
+    margin-top:270px;
+    background-color: #3366FF;
+    color: white;
+    font-size: 40px;
+    border-radius: 8px;
+    border:none;
+}
+
+
+/* footer */
+#footer {
+
+	width:600px;
+	height:200px;
+	margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    display: none;
+}
+
+
+/* three normal button */
+.but {
+
+ 	width: 120px;
+    height: 40px;
+    background-color: #6699FF ;
+    color: white;
+    font-size: 21px;
+    border-radius: 5px;
+    border:none;
+    margin-top: 30px;
+}
