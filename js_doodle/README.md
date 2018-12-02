@@ -1,4 +1,4 @@
-# doodle 涂鸦
+# js_doodle 涂鸦
 
 无后台，直接点击 index.html 运行。
 
