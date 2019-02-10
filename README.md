@@ -5,15 +5,21 @@ codes about js
 
 无后台，直接点击 index.html 运行。
 
+![index](https://github.com/w190768613/js/blob/master/js_doodle/index.png)
+
 ### 模仿Google Doodle, 编写一个绘图库，并创建自己的涂鸦
 doodle-library.js：编写的js绘图库  
 utils.js：实用功能集合  
 index.html：一个涂鸦实例
 
 
+
+
 # 2. js_slidingBlock 滑块拼图
 
 无后台，直接点击 index.html 运行
+
+![index](https://github.com/w190768613/js/blob/master/js_slidingBlock/index.png)
 
 ### 思路
 1）将图片分为4x4个滑块，删除右下角的一块  
@@ -23,8 +29,13 @@ index.html：一个涂鸦实例
 5）重置当前谜题，或开始新游戏
 
 
+
+
 # 3. js_stateMachine js有限状态机
+
 无后台，点击 index.html 运行
+
+![index](https://github.com/w190768613/js/blob/master/js_stateMachine/index.png)
 
 ### 通过有限状态机FSM，实现一个游戏引擎，并创建一个简单的游戏
 game.js - 游戏引擎
@@ -39,3 +50,4 @@ actions.js - 包含用于FSM的预定义操作
 ### actor对象
 ●每个actor都包含图像和位置信息，并且可以绘制自身  
 ●每个actor都定义了有限状态机，当事件被传递给actor时，它将根据状态机决定是否采取行动
+
